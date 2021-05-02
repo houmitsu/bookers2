@@ -10,7 +10,9 @@
 <div class="box">
 <h2>User info</h2>
 
+
 <%= form_with model:@user, url: user_path(current_user.id) do |f| %>
+
     <h4>Name</h4>
     <%= f.text_field :name %>
     <h4>Image</h4>
